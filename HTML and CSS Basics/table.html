@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>table!</title>
+        <style>
+            table {
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+
+            td, th {
+                border: 1px solid black;
+                padding: 1%;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            this is the table header
+            <thead>
+                <th>Ocean</th>
+                <th>Average Depth</th>
+                <th>Max Depth</th>
+            </thead>
+            this is the table body
+            <tbody>
+                this is a table row that gets stacked directly underneath the table header
+                <tr>
+                    these are table data cell
+                    <td>Pacific Ocean</td>
+                    <td>4,230 m</td>
+                    <td>10,911 m</td>
+                </tr>
+                this is another table row and it gets stacked underneath sort of like the list structure
+                <tr>
+                    <td>Atlantic Ocean</td>
+                    <td>3,646 m</td>
+                    <td>8,486 m</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
