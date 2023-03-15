@@ -1,21 +1,22 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Hello!</title>
+        <title>black or red!</title>
         <style>
-            button {
-                width: 200px;
-                height: auto;
-                font-size: 24px;
-                background-color: green;
+            @media (min-width: 600px) {
+                body {
+                    background-color:red;
+                }
             }
-            button:hover {
-                background-color: orange;
+            @media (max-width: 599px) {
+                body {
+                    background-color:black;
+                }
             }
         </style>
     </head>
     
     <body>
-        <button> click me</button>>
+        <button> click me, I do nothing... YET!</button>>
     </body>
 </html>
